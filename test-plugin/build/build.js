@@ -1,0 +1,3 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.app=void 0;var app=angular.module("my-app",[]);exports.app=app;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var _testController=require("./test.controller.js");Object.keys(_testController).forEach(function(e){"default"!==e&&"__esModule"!==e&&Object.defineProperty(exports,e,{enumerable:!0,get:function(){return _testController[e]}})});
+"use strict";var _app=require("./app");_app.app.controller("test-controller",["$scope",function(e){e.testdata="hey",console.log("I AM LOADED")}]);
